@@ -1,3 +1,7 @@
+|      | [на сторінку курсу Програмна інженеія в системах управління](../README.md) |
+| ---- | ------------------------------------------------------------ |
+|      |                                                              |
+
 # Форматування MarkDown
 
 ## Базовий синтаксис.
@@ -73,6 +77,22 @@
 ```markdown
 це ~~закреслений текст~~
 ```
+
+### Виноски 
+
+```markdown
+You can create footnotes like this[^footnote].
+
+[^footnote]: Here is the *text* of the **footnote**.
+```
+
+буде давати наступний результат:
+
+You can create footnotes like this[^footnote].
+
+[^footnote]: Here is the *text* of the **footnote**.
+
+Hover over the ‘footnote’ superscript to see content of the footnote.
 
 ### Код
 
@@ -414,3 +434,8 @@ http://www.example.com
 `http://www.example.com`
 ```
 
+
+
+|      | [на сторінку курсу Програмна інженеія в системах управління](../README.md) |
+| ---- | ------------------------------------------------------------ |
+|      |                                                              |
